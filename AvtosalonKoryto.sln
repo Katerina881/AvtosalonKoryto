@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KorytoModel", "KorytoModel\KorytoModel.csproj", "{94AF6666-954D-41EE-9B4B-42F4A92077D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorytoService", "KorytoService\KorytoService.csproj", "{3F239529-4C9D-464F-BF34-F275F39B2C27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KorytoService", "KorytoService\KorytoService.csproj", "{3F239529-4C9D-464F-BF34-F275F39B2C27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorytoDatabase", "KorytoDatabase\KorytoDatabase.csproj", "{D59963BA-7BD1-48E2-A1B5-74A38A9FF9F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3F239529-4C9D-464F-BF34-F275F39B2C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F239529-4C9D-464F-BF34-F275F39B2C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F239529-4C9D-464F-BF34-F275F39B2C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D59963BA-7BD1-48E2-A1B5-74A38A9FF9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59963BA-7BD1-48E2-A1B5-74A38A9FF9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59963BA-7BD1-48E2-A1B5-74A38A9FF9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59963BA-7BD1-48E2-A1B5-74A38A9FF9F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
