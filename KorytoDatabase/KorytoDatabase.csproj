@@ -6,10 +6,14 @@
 
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.1" />
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1000" />
+    <PackageReference Include="Microsoft.Office.Interop.Word" Version="15.0.4797.1003" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\KorytoModel\KorytoModel.csproj" />
+    <ProjectReference Include="..\KorytoService\KorytoService.csproj" />
   </ItemGroup>
 
 </Project>
